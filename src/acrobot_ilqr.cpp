@@ -358,6 +358,7 @@ void acrobot_ilqr::plot(){
 }
 
 void acrobot_ilqr::record(){
+    std::filesystem::create_directories("../data/acrobot_ilqr/");
     std::ofstream write_traj("../data/acrobot_ilqr/traj",std::ios::out);
     std::ofstream write_A("../data/acrobot_ilqr/A",std::ios::out);
     std::ofstream write_B("../data/acrobot_ilqr/B",std::ios::out);

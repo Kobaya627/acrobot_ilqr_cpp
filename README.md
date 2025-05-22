@@ -21,6 +21,7 @@ make
 ```
 ./acrobot_ilqr_node
 ```
+Files containing optimized swing up trajectory will be created in `../data/acrobot_ilqr/`
 
 ### Online Trajectory Tracking with tvlqr 
 
